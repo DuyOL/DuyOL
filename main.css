@@ -1,0 +1,65 @@
+body
+{
+    background-color:#FFE4C4;
+}
+#logo1
+{
+    width:500px; /*chiều rộng*/
+    height: 315px;/*chiều cao*/
+    text-align:center;
+    position:relative;
+    top:10px;/*lùi xuống , lùi lên*/
+    left: -30px;/*trái phải*/
+}
+#logo2{
+    position:fixed;
+    /* position:fixed khi cuộn xuống nó vẫn luôn chạy */
+    top:380px; /*lùi xuống  lên trên*/
+    left: 1100px;/*trái phải*/
+    /* top vs left chỉnh sửa lên xuống trái phải */
+    width: 190px; /*chiều rộng*/ 
+    height: 150px;/* chiều cao */
+}
+#logo3
+{
+    text-align:center;
+    position:relative;
+    top:10px;/*lùi xuống , lùi lên*/
+    left: -50px;/*trái phải*/   
+}
+h1{
+    color:red;
+    font-size:45px;
+    text-align:center; /*thẻ căn giữa màn hifng*/
+}
+h2{
+    color:blue;
+    font-size:33px;
+    text-align:center;
+    left: 50px;;
+}
+#anh2{
+    text-align:center;
+    position:relative;
+    top:10px;/*lùi xuống , lùi lên*/
+    left:550px;/*trái phải*/
+}
+#em{
+    text-align:center;
+    font-size:20px;
+    position:relative;
+    color:black;
+    left:-35px;
+}
+#anh3{
+    text-align:center;
+    position:relative;
+    top:10px;/*lùi xuống , lùi lên*/
+    left:450px;/*trái phải*/
+}
+h3{
+    color:blue;
+    font-size:20px;
+    text-align:center;
+    left: 50px;;
+}
